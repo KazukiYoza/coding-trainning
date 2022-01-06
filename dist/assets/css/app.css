@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* サイトの基本設定 */
 /*メインビジュアルアニメーション*/
 @keyframes slideIn {
   0% {
@@ -44,6 +45,7 @@
   100% {
     opacity: 100; } }
 
+/* 共通パーツ（ヘッダー、フッター、サイドバー）*/
 .footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -212,6 +214,7 @@ section {
     background-color: #000;
     color: #fff; }
 
+/* コンポーネント */
 .btn {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   -webkit-transition: 0.25s;
@@ -490,5 +493,3 @@ section {
   .media__imgWrapper {
     margin-right: 0;
     margin-bottom: 20px; } }
-
-/* 残るコメントアウト */
